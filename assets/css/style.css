@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* :default css start  */
+* { 
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    list-style: none;
+}
+a{
+    color:  #000;
+}
+a:hover{
+    color: gray;
+}
+/* default css end  */
+.p_1 {
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.p_2 {
+    font-size: 13px;
+    font-style: italic;
+    color: gray;
+    font-weight: 300;
+    padding: 10px;
+}
+.p_3{
+    font-size: 8px;
+    color: gray;
+    font-weight: 400; 
+}
+.p_4{
+    font-size: 30px;
+    color: #5fcf80;
+
+}
+.p_5{
+    font-size: 12px;
+    color: gray;
+}
+.btn_1 {
+    padding: 8px 18px;
+    border: none;
+    outline: none;
+    background-color: #5fcf80;
+    color: #ffffff;
+    border-radius: 30px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.btn_2 {
+    padding: 8px 18px;
+    border: 2px solid #fff;
+    outline: none;
+    background: none;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.btn_3{
+    padding: 8px 20px ;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.black1 {
+    color: black;
+}
+
+.nav_logo {
+    color: #5fcf80;
+}
+
+.nav-item .home {
+    color: #5fcf80;
+}
+
+
+.main-section {
+    background-image: url(../image/image/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding: 120px 0;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+     
+}
+ 
+.main_class{
+    z-index: 9;
+}
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000; 
+    opacity: 0.3;  
+    z-index: -1;
+}
+
+.icon_check {
+    padding: 2px 3px;
+    border: 1.5px solid #5fcf80;
+    color: #5fcf80;
+    border-radius: 50%;
+    font-size: 10px;
+}
+
+.span_text span {
+    font-size: 13px;
+}
+
+.column_4{
+    background-color: #5fcf80;
+    color: #fff;
+    padding: 20px 15px;
+}
+
+.column_2{
+    width: 200px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 0 5px;
+}
+.column_2 i{
+    color: #5fcf80;
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+.column_2 .p{
+    font-size: 12px;
+    color: gray; 
+}
+
+.column_two{
+    border: 1px solid  gray;
+    padding: 10px 20px; 
+    border-radius: 5px;
+}
+.button_price{
+    font-size: 15px;
+}
+.button_price span{
+    color: gray;
+}
+.btn_color{
+    padding: 5px 15px;
+    background-color: #5fcf80;
+    color: #fff;
+    font-size: 15px;
+}
+
+.user_image{
+    height: 50px;
+    width: 50px;
+}
+
+.user_image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.user_icon{
+    position: relative;
+}
+.details{  
+    position: absolute;
+    top: 30%;
+    right: 5%; 
+}
+.details i{
+    color: gray;
+}
+
+/* footer start  */
+.icon2 i{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.input_box{
+    position: relative;
+}
+.input_box input{
+    width: 70%;
+    border: 1px solid rgba(228, 215, 215, 0.683);
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 20px; 
+}
+.btn_4{
+    padding: 8px 15px;
+    background-color: #5fcf80;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+
+.footer_bg{
+    background-color: rgba(233, 216, 216, 0.514); 
+}
+/* footer end  */
